@@ -46,7 +46,6 @@ video {
 
 .title::after {
   content: "*";
-  color: #000;
 }
 
 .title:hover::before {
@@ -63,13 +62,13 @@ video {
   text-align: left;
   text-transform: none;
 
-  border: 2px solid #000;
+  border: 2px solid currentColor;
   white-space: pre;
   border-radius: 20px;
 
   background: #fff;
   padding: 36px 44px;
-  box-shadow: 0 14px #000;
+  box-shadow: 0 12px #000;
 
   z-index: 1;
 }
